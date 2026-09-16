@@ -1,0 +1,26 @@
+{
+  "name": "automation-apis-that-run-your-ops",
+  "description": "This GitHub repo is a powerhouse collection of automation APIs you can start using immediately to run ops, workflows, and repetitive work on autopilot. One of the most valuable automation API lists on GitHub.",
+  "topics": [
+    "automation",
+    "apis",
+    "workflows",
+    "rpa",
+    "ops",
+    "no-code",
+    "integrations",
+    "apify",
+    "awesome-list",
+    "developers",
+    "productivity",
+    "scrapers"
+  ],
+  "total": 5653,
+  "counts": {
+    "workflow-orchestration": 596,
+    "scrapers-data-pipelines": 4379,
+    "notifications-integrations": 52,
+    "browser-rpa": 4,
+    "other-automation-tools": 622
+  }
+}
