@@ -16,6 +16,29 @@ Everything else that still runs ops — niche bots, utilities, and misc automati
 
 | API Name | Description |
 |----------|-------------|
+| [Keyword Extract API](https://apimesa.com) | Extract high-signal keywords from text using deterministic scoring instead of an AI model. |
+| [Contact Extract API](https://apimesa.com) | Extract emails, URLs, and US-style phone numbers from pasted text without a model call. |
+| [Email Validate API](https://apimesa.com) | Normalize and validate email syntax, returning local and domain parts. |
+| [Phone Normalize API](https://apimesa.com) | Normalize US phone numbers into E.164 and national formats. |
+| [CSV to JSON API](https://apimesa.com) | Convert small CSV payloads into arrays of JSON objects using the first row as headers. |
+| [JSON to CSV API](https://apimesa.com) | Convert arrays of JSON objects into CSV text for exports and reports. |
+| [User Agent Parse API](https://apimesa.com) | Parse common browser, operating system, and device type signals from a user-agent string. |
+| [ISBN Validate API](https://apimesa.com) | Validate ISBN-10 and ISBN-13 values for catalog, publishing, and inventory workflows. |
+| [Name Parse API](https://apimesa.com) | Split full names into first, middle, last, suffix, and initials for forms, CRMs, and enrichment pipelines. |
+| [CSV Schema Detect API](https://apimesa.com) | Detect CSV columns, likely data types, empty counts, and sample values from small CSV payloads. |
+| [CSV Clean API](https://apimesa.com) | Trim CSV values, remove empty rows, optionally normalize headers, and deduplicate rows. |
+| [PDF Metadata API](https://apimesa.com) | Read basic metadata from a small base64 PDF: version, estimated page count, encryption flag, title, and author. |
+| [Image Metadata API](https://apimesa.com) | Detect PNG, JPEG, GIF, or WebP dimensions and byte size from a small base64 image. |
+| [EXIF Strip API](https://apimesa.com) | Remove JPEG APP1 EXIF metadata segments from a small base64 JPEG and return cleaned base64. |
+| [Markdown to HTML API](https://apimesa.com) | Convert common Markdown headings, paragraphs, links, emphasis, and inline code into sanitized HTML. |
+| [HTML to Markdown API](https://apimesa.com) | Convert simple HTML documents into readable Markdown-style text for docs and content pipelines. |
+| [vCard Generate API](https://apimesa.com) | Generate vCard 3.0 contact files from name, company, title, email, phone, and URL fields. |
+| [ICS Calendar Generate API](https://apimesa.com) | Generate downloadable .ics calendar event content from title, start/end dates, location, and description. |
+| [Webpage to PDF API](https://apimesa.com) | Render any public web page as a PDF — receipts, articles, reports, invoices. Results are cached for 24 hours. |
+| [HTML to PDF API](https://apimesa.com) | Turn raw HTML into a print-perfect PDF — invoices, contracts, certificates, reports. Max 2MB of HTML per call. |
+| [Merge PDFs API](https://apimesa.com) | Merge 2–20 PDFs in order. Background job with a status URL; 10 MiB total input, 100 pages total, 8 MiB output and a 5-minute engine deadline. Two full result retrievals are included per job for 24… |
+| [Compress PDF API](https://apimesa.com) | Losslessly compress a PDF in a background job without downsampling images. Already-efficient files may be returned unchanged. PDFs with signatures or signature fields are not supported. Poll the… |
+| [JSON Path Lookup API](https://apimesa.com) | Extract a nested value from JSON using simple dot and bracket paths such as customer.email or items[0].price. |
 | [DEPRECATED — target site dead Ucc Lien Search Ny](https://apify.com/fortuitous_pirate/ucc-lien-search-ny?fpr=p2hrc6) | Ucc Lien Search Ny. Structured data export for lead generation, enrichment, and competitive research. |
 | [♿ WCAG 2.2 Accessibility Auditor — Bulk axe-core](https://apify.com/nexgendata/wcag-accessibility-auditor?fpr=p2hrc6) | Bulk WCAG 2.2 accessibility auditor. Render sites with Chrome, scan with axe-core, return violations, severity, and score. |
 | [⚖️ Legal MCP — AI Court Records Search](https://apify.com/nexgendata/legal-mcp-server?fpr=p2hrc6) | MCP server for AI agents to search public court records. Connect Claude, GPT or any AI to legal databases. 1 tool for legal research & due diligence. |
