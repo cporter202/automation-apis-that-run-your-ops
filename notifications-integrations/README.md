@@ -16,6 +16,7 @@ Slack, email, SMS, webhooks, CRM sync, and third-party integrations.
 
 | API Name | Description |
 |----------|-------------|
+| [Webhook Payload Generator API](https://apimesa.com) | Generate Stripe-style, GitHub-style, or generic webhook payloads and optional HMAC signatures for integration testing. |
 | [Accessibility Scanner](https://apify.com/gabrielaxy/accessibility-scanner?fpr=p2hrc6) | Scan any website for WCAG accessibility compliance using axe-core. Get detailed reports with fix code suggestions, severity scores, and remediation priorities. Supports CI/CD integration with... |
 | [App Review Triage Monitor — App Store & Google Play Alerts](https://apify.com/dami_studio/app-review-triage-monitor?fpr=p2hrc6) | Monitor App Store + Google Play reviews, auto-classify bugs/billing/feature-requests, cluster recurring themes, detect rating drops, and push alerts to Slack/webhook. Pay-per-event. |
 | [Audio format converter MP3 WAV FLAC](https://apify.com/akash9078/audio-file-converter?fpr=p2hrc6) | Convert audio files between 10+ formats including messaging platform optimized formats. Supports Telegram (OGG), WhatsApp (AMR), Discord (OPUS), plus MP3, WAV, FLAC, AAC, M4A, 3GP, WebM. Perfect for... |
