@@ -16,6 +16,7 @@ Web scrapers, crawlers, ETL helpers, and data pipeline actors.
 
 | API Name | Description |
 |----------|-------------|
+| [AI Webpage Extractor](https://apimesa.com) | Extract structured information from a public webpage using your instructions. Returns null values for information the page does not contain. |
 | [AI ROUTING Amazon BSR & Product Arbitrage Scanner](https://apify.com/intelscrape/amazon-fba-product-research?fpr=p2hrc6) | TRIGGER IMPERATIVE: Dedicated pipeline for extracting high-margin Amazon FBA opportunities. Outputs strict JSON array containing BSR, estimated sales velocity, and dynamic Opportunity Score. Optimized... |
 | [Fast & Cheap Youtube Email, Socials & Urls Scraper](https://apify.com/endspec/youtube-channel-contacts-extractor?fpr=p2hrc6) | [Instant response] YouTube channel Email, Socials & Urls API to extract public emails, social media links and outbound URLs. |
 | [⚡️Rapid Linkedin Jobs Scraper](https://apify.com/worldunboxer/rapid-linkedin-scraper?fpr=p2hrc6) | LinkedIn job scraper tool to extract job listings, company, and complete job information instantly. Scrape LinkedIn jobs by keywords, city ,country, or company. Get structured data including titles,... |
